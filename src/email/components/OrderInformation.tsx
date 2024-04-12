@@ -1,4 +1,4 @@
-import { formatCurrency } from "@/db/formatters";
+import { formatCurrency } from "@/lib/formatters";
 import {
   Button,
   Column,

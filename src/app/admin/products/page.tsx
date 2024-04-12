@@ -11,7 +11,7 @@ import Link from "next/link";
 import { PageHeader } from "../_components/PageHeader";
 import db from "@/db/db";
 import { CheckCircle2, MoreVertical, XCircle } from "lucide-react";
-import { formatCurrency, formatNumber } from "@/db/formatters";
+import { formatCurrency, formatNumber } from "@/lib/formatters";
 
 import {
   DropdownMenu,
