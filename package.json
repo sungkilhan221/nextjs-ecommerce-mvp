@@ -9,7 +9,7 @@
     "lint": "next lint",
     "email": "cp .env ./node_modules/react-email && email dev --dir src/email --port 3001",
     "stripewebook": "stripe listen --forward-to localhost:3000/webhooks/stripe",
-    "postinstall": "prisma generate && next build"
+    "postinstall": "prisma generate"
   },
   "dependencies": {
     "@prisma/client": "^5.12.1",
